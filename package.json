@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for task12.2 react observable 'List and details'",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "keywords": [],
+  "author": "Gronik4",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "nanoid": "^2.0.3"
+  }
+}
